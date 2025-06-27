@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Link -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="main-container">
       <div class="header">
         <div class="upper-header">
-          <div class="search-bar">
+          <div class="upper-header-search-bar">
             <button class="search-btn">
               <img
                 src="icons/magnify.png"
@@ -25,7 +35,7 @@
               placeholder="Find here...."
             />
           </div>
-          <div class="notif-bar">
+          <div class="upper-header-notif-bar">
             <button class="notif-btn">
               <img
                 src="icons/bell-ring.png"
@@ -45,7 +55,26 @@
             </div>
           </div>
         </div>
-        <div class="lower-header">hr</div>
+        <div class="lower-header">
+          <div class="lower-header-greetings">
+            <div>
+              <img
+                src="icons/account-circle.png"
+                alt="user icon"
+                class="user-lower-icon"
+              />
+            </div>
+            <div>
+              <p>Hi, there</p>
+              <p>Ray Ipason (@ray)</p>
+            </div>
+          </div>
+          <div class="lower-header-buttons">
+            <button class="new-btn">New</button>
+            <button class="upload-btn">Upload</button>
+            <button class="share-btn">Share</button>
+          </div>
+        </div>
       </div>
       <div class="sidebar"></div>
       <div class="main-content">
