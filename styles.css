@@ -50,8 +50,9 @@ body {
   height: 35px;
   border-radius: 15px;
   padding: 10px;
-  border: 1px groove grey;
+  border: none;
   outline: none;
+  background-color: rgba(197, 212, 218, 0.836);
 }
 
 .upper-header-notif-bar {
